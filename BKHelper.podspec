@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BKHelper'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Helps people'
  
   s.description      = <<-DESC
@@ -11,8 +11,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Burak Koray Kose' => 'burakkorayk@gmail.com' }
   s.source           = { :git => 'https://github.com/burakkoray/BKHelper.git', :tag => s.version.to_s }
- 
+  s.swift_version = '4.1'
+
   s.ios.deployment_target = '9.0'
-  s.source_files = 'BKHelper/IBDesignables/'
+  s.source_files = 'BKHelper/IBDesignables/*.swift'
  
 end
