@@ -2,6 +2,6 @@
 
 ### CocoaPods
 
-Locksmith is available through [CocoaPods](http://cocoapods.org).
+BKHelper is available through [CocoaPods](http://cocoapods.org).
 
     pod 'BKHelper'
